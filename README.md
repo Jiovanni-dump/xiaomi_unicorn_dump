@@ -1,0 +1,14 @@
+# missi-user 15 AQ3A.241006.001 OS2.0.209.0.VLECNXM release-keys
+- manufacturer: xiaomi
+- platform: taro
+- codename: unicorn
+- flavor: missi-user
+- release: 15
+- id: AQ3A.241006.001
+- incremental: OS2.0.209.0.VLECNXM
+- tags: release-keys
+- fingerprint: Xiaomi/unicorn/unicorn:12/SKQ1.230401.001/OS2.0.209.0.VLECNXM:user/release-keys
+- is_ab: true
+- brand: Xiaomi
+- branch: missi-user-15-AQ3A.241006.001-OS2.0.209.0.VLECNXM-release-keys
+- repo: xiaomi_unicorn_dump
