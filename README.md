@@ -1,0 +1,14 @@
+# unicorn-user 15 AQ3A.241006.001 OS2.0.211.0.VLECNXM release-keys
+- manufacturer: xiaomi
+- platform: taro
+- codename: unicorn
+- flavor: lineage_unicorn-userdebug
+- release: 16
+- id: BP2A.250805.005
+- incremental: 367a182157
+- tags: release-keys
+- fingerprint: Xiaomi/unicorn/unicorn:15/AQ3A.241006.001/OS2.0.211.0.VLECNXM:user/release-keys
+- is_ab: true
+- brand: Xiaomi
+- branch: unicorn-user-15-AQ3A.241006.001-OS2.0.211.0.VLECNXM-release-keys
+- repo: xiaomi_unicorn_dump
