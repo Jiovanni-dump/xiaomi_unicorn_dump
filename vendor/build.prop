@@ -1,0 +1,294 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.vendor.brand=Xiaomi
+ro.product.vendor.device=unicorn
+ro.product.vendor.manufacturer=Xiaomi
+ro.product.vendor.model=2206122SC
+ro.product.vendor.name=unicorn
+ro.vendor.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+ro.vendor.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.vendor.product.cpu.abilist64=arm64-v8a
+ro.vendor.build.date=Fri Jan 16 13:21:49 UTC 2026
+ro.vendor.build.date.utc=1768569709
+ro.vendor.build.fingerprint=Xiaomi/unicorn/unicorn:15/AQ3A.241006.001/OS2.0.211.0.VLECNXM:user/release-keys
+ro.vendor.build.id=BP2A.250805.005
+ro.vendor.build.tags=release-keys
+ro.vendor.build.type=userdebug
+ro.vendor.build.version.incremental=367a182157
+ro.vendor.build.version.release=16
+ro.vendor.build.version.release_or_codename=16
+ro.vendor.build.version.sdk=36
+ro.vendor.build.version.sdk_full=36.0
+####################################
+# from device/xiaomi/sm8450-common/properties/vendor.prop
+####################################
+# Audio
+aaudio.hw_burst_min_usec=2000
+aaudio.mmap_exclusive_policy=2
+aaudio.mmap_policy=1
+af.fast_track_multiplier=1
+audio.deep_buffer.media=true
+audio.offload.video=true
+persist.vendor.audio.auto.scenario=true
+persist.vendor.audio.ha_proxy.enabled=true
+ro.af.client_heap_size_kbyte=7168
+ro.audio.flinger_standbytime_ms=2000
+ro.audio.monitorRotation=true
+ro.vendor.audio.camera.loopback.support=true
+ro.vendor.audio.feature.spatial=7
+ro.vendor.audio.gain.support=true
+ro.vendor.audio.soundtrigger.appdefine.cnn.level=45
+ro.vendor.audio.soundtrigger.appdefine.gmm.level=65
+ro.vendor.audio.soundtrigger.appdefine.gmm.user.level=55
+ro.vendor.audio.soundtrigger.appdefine.vop.level=10
+ro.vendor.audio.soundtrigger.xanzn.cnn.level=158
+ro.vendor.audio.soundtrigger.xanzn.gmm.level=80
+ro.vendor.audio.soundtrigger.xanzn.gmm.user.level=80
+ro.vendor.audio.soundtrigger.xanzn.vop.level=41
+ro.vendor.audio.soundtrigger.xatx.cnn.level=95
+ro.vendor.audio.soundtrigger.xatx.gmm.level=54
+ro.vendor.audio.soundtrigger.xatx.gmm.user.level=54
+ro.vendor.audio.soundtrigger.xatx.vop.level=0
+ro.vendor.audio.stereo_master_volume=1
+ro.vendor.audio.support.sound.id=true
+vendor.audio.adm.buffering.ms=2
+vendor.audio.feature.a2dp_offload.enable=true
+vendor.audio.feature.afe_proxy.enable=true
+vendor.audio.feature.battery_listener.enable=true
+vendor.audio.feature.dmabuf.cma.memory.enable=true
+vendor.audio.feature.hfp.enable=false
+vendor.audio.feature.kpi_optimize.enable=true
+vendor.audio.hal.boot.timeout.ms=20000
+vendor.audio.hdr.record.enable=false
+vendor.audio.hw.aac.encoder=false
+vendor.audio.offload.buffer.size.kb=32
+vendor.audio.safx.pbe.enabled=false
+vendor.audio.ull_record_period_multiplier=2
+vendor.audio.ultrasound.stoplatency=60
+vendor.audio.ultrasound.usync=1000
+vendor.audio.volume.headset.gain.depcal=true
+vendor.audio_hal.period_size=192
+vendor.qc2audio.per_frame.flac.dec.enabled=true
+vendor.qc2audio.suspend.enabled=true
+# Bluetooth
+bluetooth.hardware.power.idle_cur_ma=6
+bluetooth.hardware.power.operating_voltage_mv=3700
+bluetooth.hardware.power.rx_cur_ma=28
+bluetooth.hardware.power.tx_cur_ma=36
+bluetooth.profile.asha.central.enabled=true
+persist.bluetooth.a2dp_offload.disabled=false
+persist.vendor.qcom.bluetooth.a2dp_mcast_test.enabled=false
+persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aac-aptx-aptxhd-ldac
+persist.vendor.qcom.bluetooth.aac_frm_ctl.enabled=true
+persist.vendor.qcom.bluetooth.aptxadaptiver2_1_support=false
+persist.vendor.qcom.bluetooth.aptxadaptiver2_2_support=false
+persist.vendor.qcom.bluetooth.scram.enabled=false
+persist.vendor.qcom.bluetooth.twsp_state.enabled=false
+ro.bluetooth.a2dp_offload.supported=true
+vendor.hw.fm.init=0
+# Camera
+camera.disable_zsl_mode=true
+persist.vendor.vcb.enable=false
+ro.camera.enableCamera1MaxZsl=1
+ro.hardware.camera=xiaomi
+# Chipset
+ro.soc.manufacturer=QTI
+# Dex2oat
+dalvik.vm.dex2oat64.enabled=true
+# Display
+vendor.display.comp_mask=0
+vendor.display.disable_3d_adaptive_tm=0
+vendor.display.disable_excl_rect=0
+vendor.display.disable_excl_rect_partial_fb=1
+vendor.display.disable_hw_recovery_dump=1
+vendor.display.disable_offline_rotator=1
+vendor.display.disable_scaler=0
+vendor.display.disable_sdr_dimming=1
+vendor.display.disable_sdr_histogram=1
+vendor.display.disable_stc_dimming=1
+vendor.display.enable_async_powermode=0
+vendor.display.enable_async_vds_creation=1
+vendor.display.enable_dpps_dynamic_fps=1
+vendor.display.enable_early_wakeup=1
+vendor.display.enable_hdr10_gpu_target=1
+vendor.display.enable_optimize_refresh=0
+vendor.display.enable_rc_support=1
+vendor.display.enable_rounded_corner=1
+vendor.display.use_smooth_motion=1
+vendor.display.vds_allow_hwc=0
+# DPM
+persist.vendor.dpm.vndr.feature=1
+persist.vendor.dpm.vndr.halservice.enable=1
+persist.vendor.dpm.vndr.idletimer.mode=default
+# DRM
+drm.service.enabled=true
+# FRP
+ro.frp.pst=/dev/block/bootdevice/by-name/frp
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+# Gatekeeper
+vendor.gatekeeper.disable_spu=true
+# Graphics
+debug.egl.hw=0
+debug.sf.auto_latch_unsignaled=0
+debug.sf.disable_client_composition_cache=1
+debug.sf.early.app.duration=13666666
+debug.sf.early.sf.duration=15666666
+debug.sf.earlyGl.app.duration=13666666
+debug.sf.earlyGl.sf.duration=15666666
+debug.sf.enable_gl_backpressure=1
+debug.sf.enable_hwc_vds=1
+debug.sf.frame_rate_multiple_threshold=120
+debug.sf.hw=0
+debug.sf.latch_unsignaled=1
+debug.sf.late.app.duration=13666666
+debug.sf.late.sf.duration=15666666
+debug.sf.predict_hwc_composition_strategy=0
+debug.sf.set_idle_timer_ms=1000
+debug.sf.treat_170m_as_sRGB=1
+debug.sf.use_phase_offsets_as_durations=1
+persist.sys.sf.color_mode=0
+persist.sys.sf.color_saturation=1.0
+persist.sys.sf.native_mode=258
+ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.taro.api31
+ro.hardware.egl=adreno
+ro.hardware.vulkan=adreno
+ro.opengles.version=196610
+ro.surface_flinger.enable_frame_rate_override=false
+ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
+ro.surface_flinger.has_HDR_display=true
+ro.surface_flinger.has_wide_color_display=true
+ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+ro.surface_flinger.max_virtual_display_dimension=4096
+ro.surface_flinger.protected_contents=true
+ro.surface_flinger.set_touch_timer_ms=200
+ro.surface_flinger.supports_background_blur=1
+ro.surface_flinger.use_color_management=true
+ro.surface_flinger.use_content_detection_for_refresh_rate=true
+ro.surface_flinger.wcg_composition_dataspace=143261696
+vendor.gralloc.disable_ubwc=0
+# Incremental
+ro.incremental.enable=yes
+# Keystore
+ro.hardware.keystore_desede=true
+# Media
+debug.c2.use_dmabufheaps=1
+debug.stagefright.c2inputsurface=-1
+# Perf
+ro.vendor.extension_library=libqti-perfd-client.so
+vendor.pasr.activemode.enabled=false
+vendor.pasr.enabled=false
+# Radio
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+persist.radio.multisim.config=dsds
+persist.vendor.data.mode=concurrent
+persist.vendor.radio.apm_sim_not_pwdn=1
+persist.vendor.radio.custom_ecc=1
+persist.vendor.radio.dynamic_sar=1
+persist.vendor.radio.ecc_cloud=true
+persist.vendor.radio.enableadvancedscan=true
+persist.vendor.radio.procedure_bytes=SKIP
+persist.vendor.radio.sib16_support=1
+ro.telephony.default_network=33,33
+ro.vendor.radio.build_profile=v-stable
+telephony.active_modems.max_count=2
+telephony.lteOnCdmaDevice=1
+# RCS
+persist.vendor.rcs.singlereg.feature=1
+# Sensors
+ro.vendor.sensors.xiaomi.double_tap=true
+ro.vendor.sensors.xiaomi.single_tap=true
+# SSR
+persist.vendor.ssr.restart_level=ALL_ENABLE
+# USB
+sys.usb.mtp.batchcancel=1
+vendor.usb.diag.func.name=ffs
+vendor.usb.dpl.inst.name=dpl
+vendor.usb.qdss.inst.name=qdss_sw
+vendor.usb.rmnet.func.name=gsi
+vendor.usb.rmnet.inst.name=rmnet
+vendor.usb.rndis.func.name=gsi
+vendor.usb.use_ffs_mtp=1
+vendor.usb.use_gadget_hal=1
+# WiFi
+wifi.aware.interface=wifi-aware0
+####################################
+# from device/xiaomi/unicorn/properties/vendor.prop
+####################################
+# Fingerprint
+persist.vendor.fingerprint.type=udfps_optical
+persist.vendor.fingerprint.sensor_location=720|2480|134
+# Sensors
+ro.vendor.sensors.notifier.light_sensors.primary=5,33171089
+ro.vendor.sensors.xiaomi.udfps=true
+####################################
+# from android-info.prop
+####################################
+####################################
+# from variable ADDITIONAL_VENDOR_PROPERTIES
+####################################
+ro.bionic.arch=arm64
+ro.bionic.cpu_variant=kryo300
+ro.bionic.2nd_arch=arm
+ro.bionic.2nd_cpu_variant=cortex-a75
+persist.sys.dalvik.vm.lib.2=libart.so
+dalvik.vm.isa.arm64.variant=kryo300
+dalvik.vm.isa.arm64.features=default
+dalvik.vm.isa.arm.variant=cortex-a75
+dalvik.vm.isa.arm.features=default
+ro.minui.pixel_format=RGBX_8888
+ro.boot.dynamic_partitions=true
+ro.product.first_api_level=32
+ro.product.debugfs_restrictions.enabled=true
+ro.board.first_api_level=31
+ro.board.api_level=202504
+ro.board.api_frozen=true
+ro.vendor.build.security_patch=2025-12-01
+ro.product.board=taro
+ro.board.platform=taro
+ro.hwui.use_vulkan=
+ro.sf.lcd_density=560
+ro.build.ab_update=true
+ro.vendor.build.ab_ota_partitions=abl,aop,aop_config,bluetooth,boot,cpucp,devcfg,dsp,dtbo,featenabler,hyp,imagefv,keymaster,modem,odm,product,qupfw,recovery,shrm,system,system_ext,tz,uefi,uefisecapp,vbmeta,vbmeta_system,vendor,vendor_boot,vendor_dlkm,vm-bootsys,xbl,xbl_config,xbl_ramdump
+####################################
+# from variable PRODUCT_VENDOR_PROPERTIES
+####################################
+ro.zygote=zygote64_32
+keyguard.no_require_sim=true
+ro.com.android.dataroaming=true
+ro.config.ringtone=Ring_Synth_04.ogg
+# Removed by post_process_props.py because overridden by ro.config.notification_sound?=OnTheHunt.ogg
+#ro.config.notification_sound?=pixiedust.ogg
+# Removed by post_process_props.py because overridden by ro.zygote=zygote64_32
+#ro.zygote?=zygote32
+tombstoned.max_tombstone_count=50
+ro.logd.size.stats=64K
+log.tag.stats_log=I
+ro.carrier=unknown
+ro.config.notification_sound=OnTheHunt.ogg
+ro.config.alarm_alert=Alarm_Classic.ogg
+ro.recovery.usb.vid=18D1
+ro.recovery.usb.adb.pid=D001
+ro.recovery.usb.fastboot.pid=4EE0
+external_storage.projid.enabled=1
+external_storage.casefold.enabled=1
+external_storage.sdcardfs.enabled=0
+ro.virtual_ab.enabled=true
+dalvik.vm.heapstartsize=16m
+dalvik.vm.heapgrowthlimit=256m
+dalvik.vm.heapsize=512m
+dalvik.vm.heaptargetutilization=0.5
+dalvik.vm.heapminfree=8m
+dalvik.vm.heapmaxfree=32m
+####################################
+# from variable PRODUCT_DEFAULT_PROPERTY_OVERRIDES
+####################################
+####################################
+# from variable PRODUCT_PROPERTY_OVERRIDES
+####################################
+# end of file
+
