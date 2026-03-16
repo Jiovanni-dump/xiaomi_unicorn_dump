@@ -1,0 +1,10 @@
+<!--
+    Input:
+        device/xiaomi/sm8450-common/gps/android/aidl-impl/android.hardware.gnss-aidl-service-qti.xml
+-->
+<manifest version="9.0" type="device">
+    <hal format="aidl">
+        <name>android.hardware.gnss</name>
+        <fqname>IGnss/default</fqname>
+    </hal>
+</manifest>

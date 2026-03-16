@@ -1,0 +1,10 @@
+<!--
+    Input:
+        hardware/lineage/interfaces/ir/android.hardware.ir-service.lineage.xml
+-->
+<manifest version="9.0" type="device">
+    <hal format="aidl">
+        <name>android.hardware.ir</name>
+        <fqname>IConsumerIr/default</fqname>
+    </hal>
+</manifest>
